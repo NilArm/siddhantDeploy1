@@ -1,0 +1,43 @@
+.CarouselImg{
+    height: 250px;
+}
+.CarouselTopST{
+    /* border: 1px solid #522A0E; */
+    z-index: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 3px solid rgba(0, 128, 0, 0.44);
+    /* box-shadow: 0px 0px 15px 4px white; */
+    box-shadow: rgba(45, 35, 66, 0.4) 0px 0px 8px,rgba(45, 35, 66, 0.3) 8px 8px 8px -3px;
+    /* box-shadow:  #BCDADA 10px -10px 0px -3px, brown 10px -10px; */
+}
+.Stories{
+    padding-left: 2px;
+    
+}
+.Text1{
+    margin: 0;
+    font-size: 14sp;
+}
+
+
+
+@media only screen and (min-width:576px) {
+    .CarouselImg{
+        height: 350px;
+        width: 80vw;
+    }
+    .CarouselTopST{
+        width: 90vw;
+        margin: auto;
+    }
+    .Stories{
+        padding-left: 5vw;
+    }
+}
+
+@media (max-width: 780px){
+    .CarouselTopST{
+        border: none;
+    }
+}

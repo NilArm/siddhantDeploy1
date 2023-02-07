@@ -1,0 +1,11 @@
+.Divider{
+    width: 90%;
+    /* height: 1px; */
+    margin: 20px auto 20px auto;
+    border-radius: 0px;
+    background: #0000005b;
+    border: 1px solid #0000005b;
+    box-shadow:  5px 5px 56px #be0404,
+                 -5px -5px 6px #ffffff;
+
+}

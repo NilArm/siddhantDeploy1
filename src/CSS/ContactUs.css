@@ -1,0 +1,227 @@
+.Contactus{
+    display: flex;
+    justify-content: space-around;
+    background-color: #D1E5E5;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border: 1px solid #005432;
+    border-top-width: 8px;
+    height: 300px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    margin-left: 3px;
+    margin-right: 3px;
+    position: relative;
+}
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+.animatedIcon{
+    height: 30px;
+    width: 30px;
+    color: green;
+}
+.socialIcons{
+    display: flex;
+    width: 300px;
+}
+.contactSocial{
+    height: 30px;
+    width: 30px;
+}
+/* .contactLink{
+    text-decoration: underline;
+    text-decoration-color: rgb(155, 155, 255);
+} */
+.ContactCol{
+    text-align: center;
+    display: flex;
+    /* z-index: 1; */
+    flex-direction: column;
+    padding: 0 5px 20px 5px;
+    justify-content: space-between;
+    /* background-color: #FFFFFF; */
+    width: 30vw;
+    /* border-radius: 18px;
+    background: #FFFFFF;
+    box-shadow:  9px 9px 18px #d1d1d1,
+                 -9px -9px 18px #ffffff; */
+    border-radius: 18px;
+    background: #D1E5E5;
+    box-shadow:  9px 9px 18px #abbcbc,
+                 -5px -5px 18px #f7ffff;
+    
+}
+.ContactItem{
+    margin: 3px auto 3px auto;
+    padding: 3px 8px 3px 8px;
+    border-radius: 18px;
+    background: #D1E5E5;
+    z-index: 3;
+    box-shadow:  14px 14px 28px #abbcbc,
+                 -5px -5px 20px #f7ffff;
+    cursor:pointer;
+}
+.addressItem{
+    color: green;
+    font-weight: 400;
+}
+.ContactItemIcon{
+    margin: 3px auto 3px auto;
+    padding: 3px 8px 3px 8px;
+    border-radius: 18px;
+    background: #D1E5E5;
+    z-index: 3;
+    box-shadow:  14px 14px 28px #abbcbc,
+                 -5px -5px 20px #f7ffff;
+    border-bottom:1px solid #98c1de;
+}
+.ContactItemHead{   
+    width: 100%;
+    color: rgb(99, 28, 28);
+    font-weight: 700;
+    margin: 3px auto 10px auto;
+    padding: 3px 8px 3px 8px;
+    border-radius: 18px;
+    background: #D1E5E5;
+    z-index: 3;
+    box-shadow:  9px 9px 18px #abbcbc;
+                 /* -14px -14px 28px #f7ffff; */
+}
+.belowLeaf1,.belowLeaf2{
+    position: absolute;
+    height: 50px;
+    width: 40px;
+    opacity: 0.8;
+}
+.belowLeaf1{
+    left: 0px;
+    z-index: 2;
+}
+
+.belowLeaf2{
+    /* left: 400px; */
+    right: -80px;
+    bottom: -70px;
+    transform: rotate(180deg);
+    z-index: 3;
+}
+.OuterLeafDiv{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    top: 0px;
+    /* background-color: #f7ffff; */
+}
+.TeamDiv{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: #57757593;
+  z-index: 5;
+}
+.innerTeamDiv{
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 30%;
+  bottom: 25%;
+  margin: auto;
+  height: 610px;
+  background: #D1E5E5;
+  border: 3px solid rgb(99, 28, 28);
+  padding: 5px;
+}
+.closeTeamModal{
+    position: absolute;
+    top: 0px;
+    border-bottom-left-radius:30px ;
+    /* border-bottom-right-radius: 10px; */
+    right:0;
+    color: white;
+    padding: 0px 5px 3px 8px;
+    background-color: rgb(99, 28, 28);
+}
+.teamCard{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    padding: 5px;
+    background: #D8F2F2;
+}
+.teamImage{
+    height: 90px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 128, 0, 0.579);
+}
+.closeBtn{
+    cursor: pointer;
+    margin: 4px;
+}
+.teamDescription{
+    background-color: aliceblue;
+    border: 2px solid rgba(0, 128, 0, 0.579);
+    width: 500px;
+    margin-left: 5px;
+    /* padding-left: 10px; */
+    padding: 10px 5px 10px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.teamDeveloper{
+    color: brown;
+    font-size: 14px;
+}
+.teamName{
+    font-weight: 600;
+    font-size: 20px;
+}
+.teamCard img{
+    height: 90px;
+}
+
+@media only screen and (max-width:780px) {
+    .Contactus{
+        flex-direction: column;
+        height: 900px;
+        padding-bottom: 90px;
+    }
+    .ContactCol{
+        width: 90vw;
+        margin: auto;
+        height: 230px;   
+        padding-bottom: 10px;
+    }
+    .socialIcons{
+        width: 80vw;
+    }
+    .innerTeamDiv{
+        height: fit-content;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 60px;
+        width: 95%;
+    }
+    .teamCard{
+        height: 90px;
+    }
+    .teamImage{
+        height: 80px;
+    }
+    .teamCard img{
+        height: 80px;
+    }
+}

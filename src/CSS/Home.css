@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Concert+One&display=swap');
+/* ##05445E */
+.HomeBody{
+    height: 100vh;
+    padding-top: 60px;
+}
+a{
+    text-decoration: none;
+}
+#Home{
+    margin-top: 30px;
+}
+/* .subNav{
+    height: fit-content;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin:0px auto 20px auto;
+    background-color: #baf6f6;
+    border-bottom: 1px solid rgb(99, 28, 28);
+    border-left: 2px solid rgb(99, 28, 28);
+    border-right: 2px solid rgb(99, 28, 28);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: none;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 4px;
+} */
+/* .weather{
+    display: flex;
+    justify-content: space-around;
+    width: 180px;
+}
+.weatherLink{
+    color: green;
+    width: 180px;
+}
+.today{
+    display: flex;
+    justify-content: space-around;
+    width: 180px;
+} */
+/* .subNavItem{
+    border-left: 1px solid green;
+    border-right: 1px solid green;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    width: 220px;
+} */
+.mobileExpand{
+    display: none;
+}
+#Products,#ContactUs{
+    padding-top: 10px;
+}
+.welcomeDiv{
+    width: 90%;
+    height: 90vh;
+    /* background-color: aqua; */
+    margin: 90px 20px 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    /* border-radius: 0px;
+background: #D1E5E5;
+box-shadow:  18px 18px 36px #bccece,
+             -18px -18px 36px #e6fcfc; */
+}
+
+.textDivOuter{
+    font-size: 34px;
+    text-align: center;
+    /* position: relative; */
+    top: 20px;
+    left: 120px;
+    height: 380px;
+    /* width: 400px; */
+    /* animation: textBoxAnimation 1s; */
+    /* animation-delay: 3000ms; */
+    /* animation-fill-mode: forwards; */
+    /* border-top-right-radius: 30%; */
+    /* border-bottom: 4px solid #522A0E;
+    border-right: 4px solid #522A0E;
+    border-top: 1px solid #522A0E; */
+    border-bottom: 2px solid green;
+    border-top: 2px solid green;
+    border-bottom-left-radius: 30px;
+    /* border-bottom-right-radius: 30px; */
+    border-top-right-radius: 30px;
+    /* border: 1px solid red; */
+    padding: 30px;
+    /* background-color: #FFFFFF; */
+    /* background: linear-gradient(145deg, #cce3e3, #f3ffff); */
+    /* box-shadow:  11px 11px 22px #cfe5e5; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+/* .textBoxDiv{
+    width: 100px;
+    height: 100px;
+    border-top: 7px solid rgba(165, 42, 42, 0.381);
+    border-right: 7px solid rgba(165, 42, 42, 0.385);
+    transform: rotate(45deg);
+    position: absolute;
+    font-size: 120px;
+    left: -100%;
+    animation: textBoxArrowAnimation 3s;
+    animation-delay: 3000ms;
+} */
+.hideDiv{
+    overflow: hidden;
+    font-family: Altas;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.shopName{
+    color: green;
+    font-family: Concert One;
+    font-size: 48px;
+    animation-delay: 2s;
+}
+.hideDiv span{
+    display: inline-block;
+}
+.outerSideLeaf{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+    right: 0;
+}
+.sideLeaf,.sidePalmLeaf{
+    position: absolute;
+}
+.sideLeaf{
+    right: 0;
+    top: 70px;
+    opacity: 0.3;
+}
+.sidePalmLeaf{
+    transform: rotate(-60deg) rotateX(180deg);
+    left: 80px;
+    top: 250px;
+    opacity: 0.5;
+}
+.sideFloridaLeaf{
+    display: none;
+}
+.textAnimatefrom{
+    transform: translateY(100%);
+}
+.textAnimateto{
+    animation: textAnimation 1s;
+}
+.weOfferText{
+    font-size: 26px;
+    padding-bottom: 4px;
+}
+.CompanyCardsDiv{
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 400px;
+    height: 600px;
+    /* margin-top: 50px; */
+    /* border-left:3px solid white;
+    border-bottom:3px solid white; */
+    /* background-color: #522A0E; */
+    /* border-bottom-left-radius: 30%; */
+    /* border-bottom-right-radius: 30%; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+}
+.companyCard{
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background: #C3DFDF;
+box-shadow:  9px -9px 18px #b7d2d2,
+             -9px 9px 18px #cfecec;
+    /* border: 2px solid green; */
+}
+.companyCardLogo{
+    height: 60px;
+    width: 140px;
+}
+.companyCardLogoPSG{
+    height: 80px;
+    width: 150px;
+}
+
+@keyframes textAnimation {
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+@keyframes textBoxAnimation {
+    0%{
+        /* left: 300px; */
+        width: 900px;
+    }
+    100%{
+        /* left: 0; */
+        width: 600px;
+    }
+}
+
+
+
+
+@media (max-width: 780px){
+    .shopName{
+        font-size: 34px;
+    }
+    .weOfferText{
+        font-size: 16px;
+    }
+    .hideDiv{
+        margin: 0;
+    }
+    .sidePalmLeaf{
+        display: none;
+    }
+    .sideLeaf{
+        top: 280px;
+        opacity: 0.6;
+    }
+    /* .sidePalm{
+        height: 100px !important;
+    } */
+    .sideFloridaLeaf{
+        display: block;
+        position: absolute;
+        transform: rotateY(180deg) rotate(-40deg);
+        top: -140px;
+        left: -10px;
+        /* opacity: 0.8; */
+    }
+    .textDivOuter{
+        font-size: 24px;
+        margin-bottom: 40px;
+        padding: 20px 5px 20px 5px;
+        justify-content: center;
+    }
+    .companyCard{
+        width: 100%;
+    }
+    .CompanyCardsDiv{
+        width: 100%;
+    }
+    /* .subNav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .subNavItem{
+        display none for mobile
+        display: none;
+    } */
+    /* .textDiv{
+        left: 0;
+    } */
+    /* .CompanyCardsDiv{
+        width: 100%;
+    } */
+    /* .textDivOuter{
+        width:100% ;
+        animation: none;
+        padding-right: 14px;
+        top: 30px;
+        border-bottom-left-radius: 30%;
+        border-bottom: none;
+        border-left: 4px solid green;
+        border-bottom: 1px solid green;
+        border-top: 1px solid green;
+        background: linear-gradient(145deg, #cce3e3, #f3ffff);
+        box-shadow:  11px 11px 22px #cfe5e5,
+                     -11px -11px 22px #f7ffff;
+    } */
+    /* .textDiv{
+        font-size: 24px;
+    }
+    .textBoxDiv{
+        display: none;
+    } */
+  }
+  @media (max-width: 1230px){
+    .welcomeDiv{
+        flex-direction: column;
+        height: fit-content;
+    }
+    .CompanyCardsDiv{
+        margin: 10px auto 10px auto;
+    }
+  }
